@@ -10,8 +10,16 @@ a {
    text-decoration: none;
    }
 
+.d-f {
+   display: flex;
+
+}
+ 
+.j-between {
+   justify-content: space-between;
 
 
+}
 
 .wrapper {
    max-width: 1563px;
@@ -26,8 +34,6 @@ body {
 }
 
 nav {
-   display: flex;
-   justify-content: space-between;
    text-transform: uppercase;
    font-size: 14px;
    padding: 40px 0;
@@ -50,3 +56,30 @@ h1 {
    flex-direction: column;
    gap: 15px;
 }
+
+.header-bottom .pdf_block {
+   font-size: 12px;
+   align-items: center;
+   gap: 17px;
+   
+}
+
+.pdf_block img {
+   width: 43px;
+   height: 43px;
+   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+   display: block;
+   border-radius: 50%;
+
+}
+
+.pdf_block p  {
+   max-width: 159px;
+}
+
+.social_block {
+   gap: 10px;
+   
+
+}
+
