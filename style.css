@@ -37,7 +37,7 @@ nav {
    text-transform: uppercase;
    font-size: 14px;
    padding: 40px 0;
-border-bottom: 1px #e5e4e4 solid;
+   border-bottom: 1px #e5e4e4 solid;
 }
 
 h1 {
@@ -63,6 +63,11 @@ h1 {
    gap: 17px;
    
 }
+.header-bottom {
+   padding: 30px 0;
+
+
+}
 
 .pdf_block img {
    width: 43px;
@@ -74,12 +79,64 @@ h1 {
 }
 
 .pdf_block p  {
-   max-width: 159px;
+   
+   font-size: 14px;
+   border-bottom: 2px dotted  #12C868;;
+   
 }
 
 .social_block {
    gap: 10px;
    
+}
+
+.callback h2 {
+   font-size: 22px;
+   font-weight: 600;
+   color: #1C1C1C;
+   
+}
+
+.callback p {
+   color: #12C868;
+   border-bottom: 2px dotted;
+   width: fit-content;
+   margin: 0 auto;
 
 }
 
+.features  {
+   flex-direction: column;
+   padding: 63px 41px;
+   width: 210px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+   gap: 10px;
+
+   }
+
+.feature-item p {
+   max-width: 160px;
+   text-align: center;
+   margin: 0 auto;
+   font-size: 14px;
+   line-height: 22px;
+
+}
+
+.feature-item {
+   padding: 10px 0;
+   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+
+}
+
+.content {
+   display: flex;
+   gap: 71px;
+   
+}
+
+.main {
+
+   
+}
