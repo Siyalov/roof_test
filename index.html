@@ -9,7 +9,7 @@
 </head>
 <body>
 
-   <div class="modal">
+   <div class="modal" id="modal">
       <div class="modal_body">
          <div class="modal_close d-f">
             <img src="/img/icons/close.svg" alt="close">
@@ -31,17 +31,29 @@
             </p>
 
 
-            <form action="">  
+            <form action="/" method="get">  
                <p>
                   Введите номер телефона
                </p>
 
-               <div class="form_block">
+               <div class="form_block d-f">
 
-                  <input type="text" placeholder="+7 ( _ _ _) _ _ - _ _ - _ _">
+                  <input type="text" required placeholder="+7 ( _ _ _) _ _ - _ _ - _ _">
                   
-                  
+                  <button type="submit">
+                     Позвоните мне
+                     <img src="/img/icons/arrow2.svg" alt="arrow2">
 
+                     
+                  </button>
+                  
+                  <div class="d-f form_politic">
+                     <input type="checkbox" required>
+                     <p class="form_politic_text">
+                     Нажимая кнопку вы соглашаетесь с условиями 
+                     <a href="">Политики конфиденциальности</a>  
+                  </p>                     
+                  </div>
 
                </div>
 
@@ -180,6 +192,6 @@
 
          
    </div>
-
+<script src="modal.js"></script>
 </body>
 </html>
