@@ -134,6 +134,7 @@ h1 {
 .content {
    display: flex;
    gap: 71px;
+   margin-top: 60px;
    
 }
 
